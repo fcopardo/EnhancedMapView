@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EnhancedMapView</string>
+    <string name="draw">Start Drawing</string>
+    <string name="draw_stop">Stop Drawing</string>
+    <string name="delete_lines">Delete lines</string>
+
+</resources>

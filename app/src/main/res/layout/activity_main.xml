@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.grizzly.enhancedmapview.MainActivity">
+
+    <com.grizzly.mapview.EnhancedMapView
+        android:id="@+id/activity_main_mapview"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+    </com.grizzly.mapview.EnhancedMapView>
+
+    <LinearLayout
+        android:id="@+id/activity_main_toolbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="28dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:background="@android:color/white"
+        android:elevation="8dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <Button
+            android:id="@+id/activity_main_toolbox_draw"
+            android:layout_width="wrap_content"
+            android:text="@string/draw"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <Button
+            android:id="@+id/activity_main_toolbox_deletelines"
+            android:layout_width="wrap_content"
+            android:text="@string/delete_lines"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
